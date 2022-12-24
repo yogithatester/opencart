@@ -12,6 +12,7 @@ public class TC_001_AccountRegistration extends BaseClass {
 	public void test_account_Registration()
 	{
 		//testing conflicts
+		//commit2
 		driver.get("https://demo.opencart.com/");
 		driver.manage().window().maximize();
 		HomePage hp=new HomePage(driver);
